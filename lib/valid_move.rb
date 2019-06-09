@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move? 
+def valid_move?()
   if (position_taken? == false && between?(0,8))
     return  false || nil
   end
