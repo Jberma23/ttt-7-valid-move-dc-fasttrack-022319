@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move? 
-  if (position_taken? = false && user_input 
+  if (position_taken? = false && board[0] || board[8])
     puts ""
 end
 
